@@ -1,0 +1,118 @@
+
+        *{ 
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        div.container{
+                width: 80%;
+                margin: 0 auto 0 auto;
+        }
+        header{
+            color: rgb(255, 255, 255);
+            background-color: rgb(247, 193, 193);
+            text-shadow: rgb(122, 122, 122) 4px 3px 0px;
+            background-color: rgb(255, 52, 106);
+            font-family: 'Nerko One', cursive;
+            font-size: 20px;
+            letter-spacing: 2px;
+            word-spacing: 2px;
+            font-weight: 700;
+            text-decoration: none;
+            font-style: italic;
+            font-variant: normal;
+            text-transform: capitalize;
+            text-align: center;
+            
+
+        }
+        .hero img{
+            width: 100%;
+        }
+
+        main{
+            background-color: pink;
+        }
+
+        div.left, div.middle, div.right{
+                width: 30%;
+         
+        }
+
+        .comments img{
+            width: 100%;
+            box-align: center;
+        }
+
+        .comments{
+          float: left;
+          width: 50%;
+          box-sizing: border-box;  
+
+        }
+    
+    
+         aside img{
+                width: 200%;
+                align-content: center;
+
+        }
+        aside{
+            justify-content: space-between;
+            background-color: blueviolet;
+            float: left;
+            width: 48%;
+            margin-right: 2%;
+            box-sizing: border-box;
+            padding-inline: 4px;
+
+        }
+
+
+
+        nav{
+            background-color: pink;
+
+        }
+        ul{
+            text-align: center;
+
+        }
+        li{
+            display: inline-block;
+            width: 150px;
+            line-height: 3em;
+            font-family: 'Nerko One', cursive;
+            
+
+        }
+        a{
+            color: rgb(250, 129, 9);
+            text-decoration: none;
+            font-family: 'Nerko One', cursive;
+            display: block;
+
+        }
+
+        nav ul li a:hover{
+            background-color: rgb(129, 70, 80);
+        }
+
+        a.active{
+            background-color: rgb(129, 70, 80); 
+        }
+footer{
+    display:flow-root;
+    background-color: rgb(211, 0, 56);
+}
+
+article{
+   position: absolute;
+   width: 200px;
+   background-color: greenyellow;
+   padding: 10px;
+   border-radius: 20px;
+   font-size: 20px;
+   opacity: 0.7;
+
+}
